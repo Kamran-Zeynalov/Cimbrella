@@ -1,0 +1,110 @@
+.title-btn .title {
+    display: inline-block;
+    width: 50%;
+    margin: 30px 100px;
+}
+
+.title-btn .title h1 {
+    color: #2D3192;
+    font-family: sans-serif;
+    margin: 10px 80px;
+}
+
+.title-btn .button {
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.title-btn .button button {
+    margin-left: 50px;
+    padding: 0 100px 0 24px;
+    height: 56px;
+    background: url(https://www.simbrella.com/site/templates/img/link_orange_icon.svg) no-repeat;
+    background-position: 87% 50%;
+    background-size: 20px;
+    border-radius: 20px;
+    border: 3px solid #DFE4EB;
+    transition: 0.4s;
+}
+
+.title-btn .button button:hover {
+    border: 3px solid #FF931E;
+    background-position: 93% 50%;
+    animation: animate 0.5s ease-in-out infinite;
+}
+
+.title-btn .button button:hover a {
+    font-size: 14px;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-position: 87% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.title-btn .button button a {
+    transition: 0.4s;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    width: 0;
+}
+
+.menus {
+    position: relative;
+    left: 170px;
+}
+
+.menus .infos {
+    font-family: sans-serif;
+    padding: 40px 16px;
+    border: 2px solid lightgrey;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 20px;
+    transition: 0.4s;
+    border-radius: 6px;
+}
+
+.menus .infos:hover {
+    transform: scale(1.03);
+}
+
+.menus .infos .image img {
+    height: 160px;
+}
+
+.menus .infos .title-info {
+    padding-bottom: 30px;
+}
+
+.menus .infos .title-info h2 {
+    transition: 0.4s;
+    font-size: 21px;
+}
+
+.menus .infos .title-info p {
+    color: rgb(124, 124, 124);
+    transition: 0.4s;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.menus .infos:nth-child(even) {
+    position: relative;
+    top: 24px;
+}
+
+.menus .infos:nth-child(even) .title-info {
+    padding-bottom: 8px;
+}
